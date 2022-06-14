@@ -1,0 +1,27 @@
+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  ----   personal token
+
+83bfa96417c16380b58115e559090a9d15b7fd5d ---- sonar token
+
+15.206.187.255
+
+
+-Dsonar.organization=sonar-scaneer
+-Dsonar.projectKey=sonar124
+-Dsonar.host.url=https://sonarcloud.io
+-Dsonar.login=83bfa96417c16380b58115e559090a9d15b7fd5d
+
+
+
+assignemnt ---     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
+
+sh 'mvn -f otherdirectory/pom.xml clean install' ---- providing the pom.xml file path
+
+
+ /home/ubuntu/.sonar/sonar-scanner-4.7.0.2747-linux/bin/sonar-scanner -Dproject.settings=/var/lib/jenkins/workspace/new/maven1234/sonar-scanner.properties
+
+-Dsonar.organization=newpipeline
+-Dsonar.projectKey=newpipeline
+-Dsonar.sources=
+-Dsonar.host.url=https://sonarcloud.io
+-Dsonar.login=1ec2663ac73ab6a7f184fb8d97d59d8444239eba
+
